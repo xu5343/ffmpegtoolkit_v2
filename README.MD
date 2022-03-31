@@ -31,11 +31,27 @@ Current version **V2**
 * add libvpx
 * update something soft and library to latest version
 
-### Usage
+### Usage 官方原版
 ```
 yum install -y git wget
 cd /opt
 git clone https://github.com/hostsoft/ffmpegtoolkit.git ffmpegtoolkit
+cd ffmpegtoolkit
+bash install.sh
+```
+
+
+
+### Changelog 自用版
+
+* remove mplayer mencoder (v2)
+* add openssl support (31/03/2022)
+
+### Usage 自用版
+```
+yum install -y git wget
+cd /opt
+git clone https://github.com/xu5343/ffmpegtoolkit_v2.git ffmpegtoolkit
 cd ffmpegtoolkit
 bash install.sh
 ```
