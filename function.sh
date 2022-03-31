@@ -749,6 +749,7 @@ _Install_ffmpeg() {
   --enable-avfilter \
   --enable-libass \
   --enable-libaribb24 \
+  --enable-openssl \
   --enable-libxml2
   make
   make install
